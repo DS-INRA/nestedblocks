@@ -72,7 +72,7 @@
 	publicationID	ID	Identifiers		none	68		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE	publication	citation			
 	publicationIDType	ID Type	The type of digital identifier used for this publication (e.g., Digital Object Identifier (DOI)).		text	69	#VALUE: 	TRUE	TRUE	FALSE	FALSE	TRUE	FALSE	publicationID	citation	http://purl.org/spar/datacite/ResourceIdentifierScheme		
 	publicationIDNumber	ID Number	The identifier for the selected ID type.		text	70	#VALUE	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	publicationID	citation	http://purl.org/spar/datacite/ResourceIdentifier		
-	publicationURL	URL	Link to the publication web page (e.g., journal article page, archive record page, or other).	Enter full URL, starting with http://	url	71	"<a href=""#VALUE"" rel=""noopener"">#VALUE</a>"	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	publication	citation	https://schema.org/distribution		
+	publicationURL	URL	Link to the publication web page (e.g., journal article page, archive record page, or other).	Enter full URL, starting with http://	url	71	"<a href=""#VALUE"" rel=""noopener"">#VALUE</a>"	FALSE	FALSE	TRUE	FALSE	FALSE	FALSE	publication	citation	https://schema.org/distribution		
 	relatedMaterial	Related Material	Any material related to this Dataset.		textbox	72		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		citation			
 	relatedDataset	Related Datasets			none	73		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		citation	http://purl.org/dc/terms/relation		
 	relatedDatasetCitation	Related dataset Citation	Any Datasets that are related to this Dataset, such as previous research on this subject.		textbox	74	#VALUE: 	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	relatedDataset	citation	http://purl.org/dc/terms/relation		0
